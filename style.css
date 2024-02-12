@@ -1,0 +1,35 @@
+body{
+    background-color: #6b6baf;
+}
+
+.formalt{
+    background-color: #ffffff;
+    border: 2px solid rgb(7, 3, 3);
+    box-shadow: 10px 5px 10px black;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 20px;
+   
+}
+#btn{
+    color: white;
+    background-color: #6b6baf;
+    font-size: large;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+#head{
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width:700px){
+
+  .formalt{
+    margin:65%;
+    padding: 40px;
+  }    
+}
